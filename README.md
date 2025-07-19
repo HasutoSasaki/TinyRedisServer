@@ -14,16 +14,16 @@ docker build -t tiny-redis-dev .
 docker run --rm -it -v $(pwd):/workspace tiny-redis-dev
 ```
 
-## C 言語での実装
+## C++ 言語での実装
 
 ### コンパイル
 
 ```bash
-gcc -o .output/hello src/hello.c
+g++ -o .output/hello src/hello.cpp
 ```
 
 ### プログラム実行
 
 ```bash
-.output/hello
+./.output/hello
 ```
